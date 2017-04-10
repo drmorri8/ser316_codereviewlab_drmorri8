@@ -1,3 +1,11 @@
+/*
+ * File: AccountServerFactory.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Implements a singleton pattern for AccountServer.
+ */
+
 package banking.primitive.core;
 
 

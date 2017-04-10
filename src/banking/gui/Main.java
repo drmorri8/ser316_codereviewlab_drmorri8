@@ -1,3 +1,11 @@
+/*
+ * File: Main.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Main method for running Banking Server.
+ */
+
 package banking.gui;
 
 import javax.swing.JFrame;
