@@ -73,7 +73,7 @@ class MainFrame extends JFrame {
 		displayAccountsButton = new JButton("List Accounts");
 		JButton displayAllAccountsButton = new JButton("All Accounts");
 
-		this.addWindowListener(new FrameHandler());
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		newAccountButton.addActionListener(new NewAccountHandler());
 		displayAccountsButton.addActionListener(new DisplayHandler());
 		displayAllAccountsButton.addActionListener(new DisplayHandler());
@@ -185,16 +185,6 @@ class MainFrame extends JFrame {
 			} else {
 				JOptionPane.showMessageDialog(null, "Withdrawal unsuccessful");
 			}		
-		}
-	}
-	
-	//** Complete a handler for the Frame that terminates 
-	//** (System.exit(1)) on windowClosing event
-
-	static class FrameHandler extends WindowAdapter {
-		public void windowClosing(WindowEvent e) {
-
-			System.exit(0);
 		}
 	}
 }
