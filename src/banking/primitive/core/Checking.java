@@ -1,3 +1,11 @@
+/*
+ * File: Checking.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Defines "Savings" account type.
+ */
+
 package banking.primitive.core;
 
 public class Checking extends Account {

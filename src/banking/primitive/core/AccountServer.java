@@ -1,3 +1,11 @@
+/*
+ * File: AccountServer.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Defines the interface for a bank account server
+ */
+
 package banking.primitive.core;
 
 import java.io.IOException;

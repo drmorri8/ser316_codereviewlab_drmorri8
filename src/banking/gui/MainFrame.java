@@ -1,3 +1,11 @@
+/*
+ * File: MainFrame.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Initializes the interface to interact with Banking Server. 
+ */
+
 package banking.gui;
 
 import banking.primitive.core.Account;

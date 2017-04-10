@@ -1,3 +1,11 @@
+/*
+ * File: ServerSolution.java
+ * Author: kevinagary
+ * Date: 04/10/2017
+ * 
+ * Description: Implements AccountServer interface for Banking program.
+ */
+
 package banking.primitive.core;
 
 import java.util.ArrayList;
